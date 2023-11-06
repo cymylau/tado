@@ -1,7 +1,6 @@
 provider "tado" {
   username = "var.TADO_PASSWORD"
   password = "var.TADO_USERNAME"
-version = 1.0.6
 }
 
 
