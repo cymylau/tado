@@ -7,10 +7,14 @@ terraform {
   }
 }
 
-locals {
-            TADO_PASSWORD = ""
-            TADO_USERNAME = ""
-          }
+variable "TADO_PASSWORD" {
+  type        = string
+}
+
+variable "TADO_USERNAME" {
+  type        = string
+}
+
 
 provider "tado" {
   username = "var.TADO_PASSWORD"
