@@ -9,10 +9,12 @@ terraform {
 
 variable "TADO_PASSWORD" {
   type        = string
+  default    = "fake"
 }
 
 variable "TADO_USERNAME" {
   type        = string
+  default     = "fake"
 }
 
 
