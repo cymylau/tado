@@ -1,3 +1,13 @@
+terraform {
+  required_providers {
+    proxmox = {
+      source  = "gonzolino/tado"
+      version = "1.0.6"
+    }
+  }
+}
+
+
 provider "tado" {
   username = "var.TADO_PASSWORD"
   password = "var.TADO_USERNAME"
