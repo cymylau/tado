@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    proxmox = {
+    tado = {
       source  = "gonzolino/tado"
       version = "1.0.6"
     }
