@@ -19,8 +19,8 @@ variable "TADO_USERNAME" {
 
 
 provider "tado" {
-  username = "var.TADO_PASSWORD"
-  password = "var.TADO_USERNAME"
+  username = "${var.TADO_PASSWORD}"
+  password = "${var.TADO_USERNAME}"
 }
 
 
