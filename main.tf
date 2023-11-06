@@ -7,18 +7,18 @@ terraform {
   }
 }
 
-variable "TADO_PASSWORD" {
+variable "tado_password" {
   type        = string
 }
 
-variable "TADO_USERNAME" {
+variable "tado_username" {
   type        = string
 }
 
 
 provider "tado" {
-  username = "${var.TADO_PASSWORD}"
-  password = "${var.TADO_USERNAME}"
+  username = "${var.tado_username}"
+  password = "${var.tado.password}"
 }
 
 
