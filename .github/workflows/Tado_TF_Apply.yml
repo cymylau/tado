@@ -33,5 +33,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: terraform apply
         run: |
-          terraform -var="tado_username=${{ TADO_USERNAME }}" -var="tado_passord=${{ TADO_PASSWORD }}" -apply -auto-approve
+          terraform -var "tado_username=${{ TADO_USERNAME }}" -var "tado_passord=${{ TADO_PASSWORD }}" -apply -auto-approve
         working-directory: ./
