@@ -1,4 +1,4 @@
-provider "tado" {
+provider "gonzolino/tado" {
   username = "var.TADO_PASSWORD"
   password = "var.TADO_USERNAME"
 }
