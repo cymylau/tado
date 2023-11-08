@@ -1,2 +1,2 @@
-tado_username="fake"
-tado_password="fake"
+tado_username=""
+tado_password=""
