@@ -15,7 +15,6 @@ variable "tado_username" {
   type        = string
 }
 
-
 provider "tado" {
   username = var.tado_username
   password = var.tado_password
